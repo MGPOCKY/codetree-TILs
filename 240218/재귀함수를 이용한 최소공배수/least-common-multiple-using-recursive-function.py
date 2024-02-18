@@ -6,8 +6,8 @@ def recursion(nums, val):
     if isAllSatisfy == True:
         return val
     else:
-        return recursion(nums, val + nums[0])
+        return recursion(nums, val + 1)
 
 n = int(input())
 nums = list(map(int, input().split()))
-print(recursion(nums, nums[0]))
+print(recursion(nums, 1))
