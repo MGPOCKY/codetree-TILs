@@ -10,4 +10,4 @@ def recursion(nums, val):
 
 n = int(input())
 nums = list(map(int, input().split()))
-print(recursion(nums, num[0]))
+print(recursion(nums, nums[0]))
