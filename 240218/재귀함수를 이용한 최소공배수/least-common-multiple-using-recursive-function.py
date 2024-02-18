@@ -1,3 +1,6 @@
+import sys
+sys.setrecursionlimit(100000)
+
 def recursion(nums, val):
     isAllSatisfy = True
     for num in nums:
