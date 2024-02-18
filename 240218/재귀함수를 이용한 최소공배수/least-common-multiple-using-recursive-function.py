@@ -3,7 +3,7 @@ def recursion(nums, val):
     for num in nums:
         if val % num != 0:
             isAllSatisfy = False
-    if isAllSatisfy:
+    if isAllSatisfy == True:
         return val
     else:
         return recursion(nums, val + nums[0])
